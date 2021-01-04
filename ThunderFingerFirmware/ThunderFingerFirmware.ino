@@ -119,7 +119,7 @@ void loop() {
 
   int compensatedValue = abs(sensorValue - zeroPoint);
 
-  compensatedValue += sin(double(millis()) / 300.0) * 1000.0 + 800.0;
+//  compensatedValue += sin(double(millis()) / 300.0) * 1000.0 + 800.0;
 
   Serial.print("Reading: ");
   Serial.print(sensorValue);
